@@ -48,7 +48,7 @@ public class ManipulatorAgent : Agent
         if (newDist < 0.4f)
         {
             SetReward(1f);
-            EndEpisode(); ;
+            EndEpisode();
         }
     }
     public override void CollectObservations(VectorSensor sensor)
