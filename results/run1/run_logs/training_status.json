@@ -1,0 +1,29 @@
+{
+    "Manipulator": {
+        "checkpoints": [
+            {
+                "steps": 152301,
+                "file_path": "results\\run1\\Manipulator\\Manipulator-152301.onnx",
+                "reward": -0.8,
+                "creation_time": 1705574217.1229055,
+                "auxillary_file_paths": [
+                    "results\\run1\\Manipulator\\Manipulator-152301.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 152301,
+            "file_path": "results\\run1\\Manipulator.onnx",
+            "reward": -0.8,
+            "creation_time": 1705574217.1229055,
+            "auxillary_file_paths": [
+                "results\\run1\\Manipulator\\Manipulator-152301.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.0.0",
+        "torch_version": "2.1.2+cpu"
+    }
+}

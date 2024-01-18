@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1705572034",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\18021\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\mlagents-learn MLConfigs/Manipulator.yaml --run-id=firstTrain",
+        "mlagents_version": "1.0.0",
+        "mlagents_envs_version": "1.0.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.2+cpu",
+        "numpy_version": "1.23.1",
+        "end_time_seconds": "1705572096"
+    },
+    "total": 62.69784699997399,
+    "count": 1,
+    "self": 0.004820000031031668,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08253149990923703,
+            "count": 1,
+            "self": 0.08253149990923703
+        },
+        "TrainerController.start_learning": {
+            "total": 62.61049550003372,
+            "count": 1,
+            "self": 9.029998909682035e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.61038640001789,
+                    "count": 1,
+                    "self": 62.61038640001789
+                },
+                "TrainerController._save_models": {
+                    "total": 1.880002673715353e-05,
+                    "count": 1,
+                    "self": 1.880002673715353e-05
+                }
+            }
+        }
+    }
+}

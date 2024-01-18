@@ -1,0 +1,38 @@
+{
+    "Manipulator": {
+        "checkpoints": [
+            {
+                "steps": 499424,
+                "file_path": "results\\run4\\Manipulator\\Manipulator-499424.onnx",
+                "reward": 466.6666666666667,
+                "creation_time": 1705576850.963763,
+                "auxillary_file_paths": [
+                    "results\\run4\\Manipulator\\Manipulator-499424.pt"
+                ]
+            },
+            {
+                "steps": 689695,
+                "file_path": "results\\run4\\Manipulator\\Manipulator-689695.onnx",
+                "reward": 372.78125,
+                "creation_time": 1705576941.2531564,
+                "auxillary_file_paths": [
+                    "results\\run4\\Manipulator\\Manipulator-689695.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 689695,
+            "file_path": "results\\run4\\Manipulator.onnx",
+            "reward": 372.78125,
+            "creation_time": 1705576941.2531564,
+            "auxillary_file_paths": [
+                "results\\run4\\Manipulator\\Manipulator-689695.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.0.0",
+        "torch_version": "2.1.2+cpu"
+    }
+}
